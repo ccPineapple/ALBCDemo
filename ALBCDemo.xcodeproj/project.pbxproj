@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F375891B1DD17A8100CB236D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F375891A1DD17A8100CB236D /* main.m */; };
+		F375891E1DD17A8100CB236D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F375891D1DD17A8100CB236D /* AppDelegate.m */; };
+		F37589211DD17A8100CB236D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F37589201DD17A8100CB236D /* ViewController.m */; };
+		F37589241DD17A8100CB236D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F37589221DD17A8100CB236D /* Main.storyboard */; };
+		F37589261DD17A8100CB236D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F37589251DD17A8100CB236D /* Assets.xcassets */; };
+		F37589291DD17A8100CB236D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F37589271DD17A8100CB236D /* LaunchScreen.storyboard */; };
+		F37589341DD17A8100CB236D /* ALBCDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F37589331DD17A8100CB236D /* ALBCDemoTests.m */; };
+		F375893F1DD17A8100CB236D /* ALBCDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F375893E1DD17A8100CB236D /* ALBCDemoUITests.m */; };
+		F375895A1DD17B0100CB236D /* ALBBFullSecurityGuard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F375894D1DD17B0100CB236D /* ALBBFullSecurityGuard.framework */; };
+		F375895B1DD17B0100CB236D /* ALBBLoginSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F375894E1DD17B0100CB236D /* ALBBLoginSDK.framework */; };
+		F375895C1DD17B0100CB236D /* ALBBSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F375894F1DD17B0100CB236D /* ALBBSDK.framework */; };
+		F375895D1DD17B0100CB236D /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F37589501DD17B0100CB236D /* AlipaySDK.bundle */; };
+		F375895E1DD17B0100CB236D /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F37589511DD17B0100CB236D /* AlipaySDK.framework */; };
+		F375895F1DD17B0100CB236D /* baichuan.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F37589521DD17B0100CB236D /* baichuan.bundle */; };
+		F37589601DD17B0100CB236D /* NBSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F37589531DD17B0100CB236D /* NBSDK.framework */; };
+		F37589611DD17B0100CB236D /* SecurityGuardSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F37589541DD17B0100CB236D /* SecurityGuardSDK.framework */; };
+		F37589621DD17B0100CB236D /* SGMain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F37589551DD17B0100CB236D /* SGMain.framework */; };
+		F37589631DD17B0100CB236D /* TBAppLinkSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F37589561DD17B0100CB236D /* TBAppLinkSDK.framework */; };
+		F37589641DD17B0100CB236D /* UTDID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F37589571DD17B0100CB236D /* UTDID.framework */; };
+		F37589651DD17B0100CB236D /* UTMini.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F37589581DD17B0100CB236D /* UTMini.framework */; };
+		F37589661DD17B0100CB236D /* ZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F37589591DD17B0100CB236D /* ZipArchive.framework */; };
+		F37589681DD17BA000CB236D /* NBResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F37589671DD17BA000CB236D /* NBResource.bundle */; };
+		F375896A1DD17BC500CB236D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F37589691DD17BC500CB236D /* libz.tbd */; };
+		F375896C1DD17BD100CB236D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F375896B1DD17BD100CB236D /* libc++.tbd */; };
+		F375896E1DD17BD700CB236D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F375896D1DD17BD700CB236D /* Security.framework */; };
+		F37589701DD17BDD00CB236D /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F375896F1DD17BDD00CB236D /* CoreMotion.framework */; };
+		F37589721DD17BE300CB236D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F37589711DD17BE300CB236D /* CFNetwork.framework */; };
+		F37589741DD17BE900CB236D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F37589731DD17BE900CB236D /* CoreTelephony.framework */; };
+		F37589761DD17BF100CB236D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F37589751DD17BF100CB236D /* SystemConfiguration.framework */; };
+		F37589781DD17D4600CB236D /* yw_1222.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F37589771DD17D4600CB236D /* yw_1222.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F37589301DD17A8100CB236D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F375890E1DD17A8100CB236D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F37589151DD17A8100CB236D;
+			remoteInfo = ALBCDemo;
+		};
+		F375893B1DD17A8100CB236D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F375890E1DD17A8100CB236D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F37589151DD17A8100CB236D;
+			remoteInfo = ALBCDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F37589161DD17A8100CB236D /* ALBCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALBCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F375891A1DD17A8100CB236D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F375891C1DD17A8100CB236D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F375891D1DD17A8100CB236D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F375891F1DD17A8100CB236D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F37589201DD17A8100CB236D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F37589231DD17A8100CB236D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F37589251DD17A8100CB236D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F37589281DD17A8100CB236D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F375892A1DD17A8100CB236D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F375892F1DD17A8100CB236D /* ALBCDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALBCDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F37589331DD17A8100CB236D /* ALBCDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALBCDemoTests.m; sourceTree = "<group>"; };
+		F37589351DD17A8100CB236D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F375893A1DD17A8100CB236D /* ALBCDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALBCDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F375893E1DD17A8100CB236D /* ALBCDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALBCDemoUITests.m; sourceTree = "<group>"; };
+		F37589401DD17A8100CB236D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F375894D1DD17B0100CB236D /* ALBBFullSecurityGuard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ALBBFullSecurityGuard.framework; sourceTree = "<group>"; };
+		F375894E1DD17B0100CB236D /* ALBBLoginSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ALBBLoginSDK.framework; sourceTree = "<group>"; };
+		F375894F1DD17B0100CB236D /* ALBBSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ALBBSDK.framework; sourceTree = "<group>"; };
+		F37589501DD17B0100CB236D /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		F37589511DD17B0100CB236D /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		F37589521DD17B0100CB236D /* baichuan.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = baichuan.bundle; sourceTree = "<group>"; };
+		F37589531DD17B0100CB236D /* NBSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NBSDK.framework; sourceTree = "<group>"; };
+		F37589541DD17B0100CB236D /* SecurityGuardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SecurityGuardSDK.framework; sourceTree = "<group>"; };
+		F37589551DD17B0100CB236D /* SGMain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SGMain.framework; sourceTree = "<group>"; };
+		F37589561DD17B0100CB236D /* TBAppLinkSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TBAppLinkSDK.framework; sourceTree = "<group>"; };
+		F37589571DD17B0100CB236D /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UTDID.framework; sourceTree = "<group>"; };
+		F37589581DD17B0100CB236D /* UTMini.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UTMini.framework; sourceTree = "<group>"; };
+		F37589591DD17B0100CB236D /* ZipArchive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZipArchive.framework; sourceTree = "<group>"; };
+		F37589671DD17BA000CB236D /* NBResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NBResource.bundle; sourceTree = "<group>"; };
+		F37589691DD17BC500CB236D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F375896B1DD17BD100CB236D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F375896D1DD17BD700CB236D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F375896F1DD17BDD00CB236D /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		F37589711DD17BE300CB236D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F37589731DD17BE900CB236D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F37589751DD17BF100CB236D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F37589771DD17D4600CB236D /* yw_1222.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yw_1222.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F37589131DD17A8100CB236D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37589761DD17BF100CB236D /* SystemConfiguration.framework in Frameworks */,
+				F37589741DD17BE900CB236D /* CoreTelephony.framework in Frameworks */,
+				F37589721DD17BE300CB236D /* CFNetwork.framework in Frameworks */,
+				F37589701DD17BDD00CB236D /* CoreMotion.framework in Frameworks */,
+				F375896E1DD17BD700CB236D /* Security.framework in Frameworks */,
+				F375896C1DD17BD100CB236D /* libc++.tbd in Frameworks */,
+				F375896A1DD17BC500CB236D /* libz.tbd in Frameworks */,
+				F375895B1DD17B0100CB236D /* ALBBLoginSDK.framework in Frameworks */,
+				F37589631DD17B0100CB236D /* TBAppLinkSDK.framework in Frameworks */,
+				F37589601DD17B0100CB236D /* NBSDK.framework in Frameworks */,
+				F375895E1DD17B0100CB236D /* AlipaySDK.framework in Frameworks */,
+				F37589651DD17B0100CB236D /* UTMini.framework in Frameworks */,
+				F37589621DD17B0100CB236D /* SGMain.framework in Frameworks */,
+				F37589661DD17B0100CB236D /* ZipArchive.framework in Frameworks */,
+				F37589611DD17B0100CB236D /* SecurityGuardSDK.framework in Frameworks */,
+				F375895A1DD17B0100CB236D /* ALBBFullSecurityGuard.framework in Frameworks */,
+				F375895C1DD17B0100CB236D /* ALBBSDK.framework in Frameworks */,
+				F37589641DD17B0100CB236D /* UTDID.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F375892C1DD17A8100CB236D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37589371DD17A8100CB236D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F375890D1DD17A8100CB236D = {
+			isa = PBXGroup;
+			children = (
+				F37589771DD17D4600CB236D /* yw_1222.jpg */,
+				F37589181DD17A8100CB236D /* ALBCDemo */,
+				F37589321DD17A8100CB236D /* ALBCDemoTests */,
+				F375893D1DD17A8100CB236D /* ALBCDemoUITests */,
+				F37589171DD17A8100CB236D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F37589171DD17A8100CB236D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F37589161DD17A8100CB236D /* ALBCDemo.app */,
+				F375892F1DD17A8100CB236D /* ALBCDemoTests.xctest */,
+				F375893A1DD17A8100CB236D /* ALBCDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F37589181DD17A8100CB236D /* ALBCDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F37589751DD17BF100CB236D /* SystemConfiguration.framework */,
+				F37589731DD17BE900CB236D /* CoreTelephony.framework */,
+				F37589711DD17BE300CB236D /* CFNetwork.framework */,
+				F375896F1DD17BDD00CB236D /* CoreMotion.framework */,
+				F375896D1DD17BD700CB236D /* Security.framework */,
+				F375896B1DD17BD100CB236D /* libc++.tbd */,
+				F37589691DD17BC500CB236D /* libz.tbd */,
+				F37589671DD17BA000CB236D /* NBResource.bundle */,
+				F375894C1DD17B0100CB236D /* ALiTrade */,
+				F375891C1DD17A8100CB236D /* AppDelegate.h */,
+				F375891D1DD17A8100CB236D /* AppDelegate.m */,
+				F375891F1DD17A8100CB236D /* ViewController.h */,
+				F37589201DD17A8100CB236D /* ViewController.m */,
+				F37589221DD17A8100CB236D /* Main.storyboard */,
+				F37589251DD17A8100CB236D /* Assets.xcassets */,
+				F37589271DD17A8100CB236D /* LaunchScreen.storyboard */,
+				F375892A1DD17A8100CB236D /* Info.plist */,
+				F37589191DD17A8100CB236D /* Supporting Files */,
+			);
+			path = ALBCDemo;
+			sourceTree = "<group>";
+		};
+		F37589191DD17A8100CB236D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F375891A1DD17A8100CB236D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F37589321DD17A8100CB236D /* ALBCDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F37589331DD17A8100CB236D /* ALBCDemoTests.m */,
+				F37589351DD17A8100CB236D /* Info.plist */,
+			);
+			path = ALBCDemoTests;
+			sourceTree = "<group>";
+		};
+		F375893D1DD17A8100CB236D /* ALBCDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F375893E1DD17A8100CB236D /* ALBCDemoUITests.m */,
+				F37589401DD17A8100CB236D /* Info.plist */,
+			);
+			path = ALBCDemoUITests;
+			sourceTree = "<group>";
+		};
+		F375894C1DD17B0100CB236D /* ALiTrade */ = {
+			isa = PBXGroup;
+			children = (
+				F375894D1DD17B0100CB236D /* ALBBFullSecurityGuard.framework */,
+				F375894E1DD17B0100CB236D /* ALBBLoginSDK.framework */,
+				F375894F1DD17B0100CB236D /* ALBBSDK.framework */,
+				F37589501DD17B0100CB236D /* AlipaySDK.bundle */,
+				F37589511DD17B0100CB236D /* AlipaySDK.framework */,
+				F37589521DD17B0100CB236D /* baichuan.bundle */,
+				F37589531DD17B0100CB236D /* NBSDK.framework */,
+				F37589541DD17B0100CB236D /* SecurityGuardSDK.framework */,
+				F37589551DD17B0100CB236D /* SGMain.framework */,
+				F37589561DD17B0100CB236D /* TBAppLinkSDK.framework */,
+				F37589571DD17B0100CB236D /* UTDID.framework */,
+				F37589581DD17B0100CB236D /* UTMini.framework */,
+				F37589591DD17B0100CB236D /* ZipArchive.framework */,
+			);
+			path = ALiTrade;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F37589151DD17A8100CB236D /* ALBCDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F37589431DD17A8100CB236D /* Build configuration list for PBXNativeTarget "ALBCDemo" */;
+			buildPhases = (
+				F37589121DD17A8100CB236D /* Sources */,
+				F37589131DD17A8100CB236D /* Frameworks */,
+				F37589141DD17A8100CB236D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALBCDemo;
+			productName = ALBCDemo;
+			productReference = F37589161DD17A8100CB236D /* ALBCDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F375892E1DD17A8100CB236D /* ALBCDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F37589461DD17A8100CB236D /* Build configuration list for PBXNativeTarget "ALBCDemoTests" */;
+			buildPhases = (
+				F375892B1DD17A8100CB236D /* Sources */,
+				F375892C1DD17A8100CB236D /* Frameworks */,
+				F375892D1DD17A8100CB236D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F37589311DD17A8100CB236D /* PBXTargetDependency */,
+			);
+			name = ALBCDemoTests;
+			productName = ALBCDemoTests;
+			productReference = F375892F1DD17A8100CB236D /* ALBCDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F37589391DD17A8100CB236D /* ALBCDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F37589491DD17A8100CB236D /* Build configuration list for PBXNativeTarget "ALBCDemoUITests" */;
+			buildPhases = (
+				F37589361DD17A8100CB236D /* Sources */,
+				F37589371DD17A8100CB236D /* Frameworks */,
+				F37589381DD17A8100CB236D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F375893C1DD17A8100CB236D /* PBXTargetDependency */,
+			);
+			name = ALBCDemoUITests;
+			productName = ALBCDemoUITests;
+			productReference = F375893A1DD17A8100CB236D /* ALBCDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F375890E1DD17A8100CB236D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "路洪宇";
+				TargetAttributes = {
+					F37589151DD17A8100CB236D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F375892E1DD17A8100CB236D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F37589151DD17A8100CB236D;
+					};
+					F37589391DD17A8100CB236D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F37589151DD17A8100CB236D;
+					};
+				};
+			};
+			buildConfigurationList = F37589111DD17A8100CB236D /* Build configuration list for PBXProject "ALBCDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F375890D1DD17A8100CB236D;
+			productRefGroup = F37589171DD17A8100CB236D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F37589151DD17A8100CB236D /* ALBCDemo */,
+				F375892E1DD17A8100CB236D /* ALBCDemoTests */,
+				F37589391DD17A8100CB236D /* ALBCDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F37589141DD17A8100CB236D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37589291DD17A8100CB236D /* LaunchScreen.storyboard in Resources */,
+				F37589261DD17A8100CB236D /* Assets.xcassets in Resources */,
+				F37589781DD17D4600CB236D /* yw_1222.jpg in Resources */,
+				F375895D1DD17B0100CB236D /* AlipaySDK.bundle in Resources */,
+				F375895F1DD17B0100CB236D /* baichuan.bundle in Resources */,
+				F37589241DD17A8100CB236D /* Main.storyboard in Resources */,
+				F37589681DD17BA000CB236D /* NBResource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F375892D1DD17A8100CB236D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37589381DD17A8100CB236D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F37589121DD17A8100CB236D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37589211DD17A8100CB236D /* ViewController.m in Sources */,
+				F375891E1DD17A8100CB236D /* AppDelegate.m in Sources */,
+				F375891B1DD17A8100CB236D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F375892B1DD17A8100CB236D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37589341DD17A8100CB236D /* ALBCDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37589361DD17A8100CB236D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F375893F1DD17A8100CB236D /* ALBCDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F37589311DD17A8100CB236D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F37589151DD17A8100CB236D /* ALBCDemo */;
+			targetProxy = F37589301DD17A8100CB236D /* PBXContainerItemProxy */;
+		};
+		F375893C1DD17A8100CB236D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F37589151DD17A8100CB236D /* ALBCDemo */;
+			targetProxy = F375893B1DD17A8100CB236D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F37589221DD17A8100CB236D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F37589231DD17A8100CB236D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F37589271DD17A8100CB236D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F37589281DD17A8100CB236D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F37589411DD17A8100CB236D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F37589421DD17A8100CB236D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F37589441DD17A8100CB236D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ALBCDemo/ALiTrade",
+				);
+				INFOPLIST_FILE = ALBCDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lamajie.hotMumSteet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F37589451DD17A8100CB236D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ALBCDemo/ALiTrade",
+				);
+				INFOPLIST_FILE = ALBCDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lamajie.hotMumSteet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F37589471DD17A8100CB236D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ALBCDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lhy.ALBCDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALBCDemo.app/ALBCDemo";
+			};
+			name = Debug;
+		};
+		F37589481DD17A8100CB236D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ALBCDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lhy.ALBCDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALBCDemo.app/ALBCDemo";
+			};
+			name = Release;
+		};
+		F375894A1DD17A8100CB236D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ALBCDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lhy.ALBCDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ALBCDemo;
+			};
+			name = Debug;
+		};
+		F375894B1DD17A8100CB236D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ALBCDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lhy.ALBCDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ALBCDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F37589111DD17A8100CB236D /* Build configuration list for PBXProject "ALBCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F37589411DD17A8100CB236D /* Debug */,
+				F37589421DD17A8100CB236D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F37589431DD17A8100CB236D /* Build configuration list for PBXNativeTarget "ALBCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F37589441DD17A8100CB236D /* Debug */,
+				F37589451DD17A8100CB236D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F37589461DD17A8100CB236D /* Build configuration list for PBXNativeTarget "ALBCDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F37589471DD17A8100CB236D /* Debug */,
+				F37589481DD17A8100CB236D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F37589491DD17A8100CB236D /* Build configuration list for PBXNativeTarget "ALBCDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F375894A1DD17A8100CB236D /* Debug */,
+				F375894B1DD17A8100CB236D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F375890E1DD17A8100CB236D /* Project object */;
+}
