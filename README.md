@@ -5,3 +5,4 @@
 #####2.换Bundle ID 对应 安全图片
 #####3.换Bundle ID 对应 appKey
 #####4.换Bundle ID
+#####5.换URL Types 的URL Schemes
